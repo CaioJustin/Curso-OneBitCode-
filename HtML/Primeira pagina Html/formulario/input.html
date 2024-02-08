@@ -1,0 +1,100 @@
+<html>
+
+
+<head><title>Inputs</title></head>
+
+
+<body>
+    <h1>Inputs no html</h1>
+
+
+
+<form >
+
+<!--Campo de texto-->
+<!--required e pra deixa um campo como obrigatorio logo nao e possivel enviar o formulario sem ele esta preenchido-->
+    <label for="Nome">nome</label>
+    <input type="text" name="q" id="Nome" required placeholder="Ex:Maria Gamer">
+    
+    <br><br>
+    
+    
+<!--Campo de email-->
+
+ <label for="email">E-mail</label>
+ <input type="email" name="email" id="email" required>
+ <br><br>
+ 
+ 
+ 
+ <!--campo de senha-->
+ <label for="senha">senha</label>
+ <input type="password" id="senha" name="senha">
+ 
+<br><br>
+
+
+<!--campo de selecao radio-->
+<label >Genero</label>
+<input type="radio" name="genero" id="masculino" value="m">
+<label for="masculino">masculino</label>
+<input type="radio" name="genero" id="feminino" value="f">
+<label for="feminino">feminino</label>
+<input type="radio" name="genero" id="nao quero dizer" value="o">    
+<label for="nao quero dizer">ocultar</label>
+<br><br>
+
+
+<!--campo de selecao multipla (checkbox)-->
+
+
+
+<label >Interesses:</label>
+<br>
+<input type="checkbox" name="Interesses" id="backend" value="backend">
+<label for="backend">backend</label>
+<input type="checkbox" name="Interesses" id="Frontend" value="Frontend">
+<label for="Frontend">Frontend</label>
+<input type="checkbox" name="Interesses" id="mobile" value="mobile">
+<label for="mobile">mobile</label>
+<br><br>
+
+
+<!--Campo de data-->
+<label for="datadenascimento">data de nascimento</label>
+<input type="date" name="nascimento" id="datadenascimento">
+<br><br>
+
+<!--Campo de arquivo(upload)-->
+
+<label for="fotodeperfil">foto de perfil</label>
+<input type="file" name="avatar" id="fotodeperfil">
+<br><br>
+
+
+<!--campo de caixa de seleção-->
+
+<label for="situação">situação atual</label>
+<select name="situação" id="situação">
+
+<option value=""  selected disabled >Selecione uma das opçoes</option>
+<option value="Estudante">Estudando para me torna um programdor</option>
+<option value="Estagiario">atuando como um estagiario junior</option>
+<option value="junior">atuando como um Desenvolvedor junior</option>
+<option value="pleno">atuando como um Desenvolvedor pleno </option>
+<option value="senior">atuando como um Desenvolvedor senior</option>
+</select>
+<br><br>
+
+
+<!--campo de area de texto de multiplas linhas-->
+<label for="sobre">sobre mim:</label>
+<br>
+<textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Explique um pouco sobre "></textarea>
+<button type="submit">enviar</button>
+
+
+
+</form>
+</body>
+</html>

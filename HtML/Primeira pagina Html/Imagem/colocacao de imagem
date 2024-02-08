@@ -1,0 +1,9 @@
+para colocoa imagem e necessario colocar img colocar  a passagem
+
+voce pode colocar o alt que caso a imagem nao seja carregada por algum erro e bom pra assesibilidade
+
+height pra mudar o tamanho
+width pra mudar o comprimento
+
+Tambem e possivel mudar a otimização da imagem a adicionando loading e dizendo e ela vai demorar pra carragar  
+ou carragar mais rapido
