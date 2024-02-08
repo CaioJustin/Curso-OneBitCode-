@@ -1,0 +1,15 @@
+/* o * esta usando o sistema de cor hexadecimal  */
+*{
+        background-color:#ff0000 ;
+}
+
+/*     o P esta usando o sistema de cor RGB  */
+p{
+    color:rgb(255,255,255);
+    font-size: larger;
+}
+
+/* o h1 esta usando o sistema de cor HsL  */
+h1{
+    color: hsl(hue, saturation, lightness);
+}

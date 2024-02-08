@@ -1,0 +1,18 @@
+#nem{
+    color: hsl(64, 100%, 54%);
+}
+
+.preto{
+    color: blueviolet;
+    background-color: hsl(0, 0%, 0%);
+}
+
+body >h1{
+    color: hsl(0, 87%, 48%);
+}
+
+h1{
+    color: rgb(14, 103, 236) !important;
+}
+
+

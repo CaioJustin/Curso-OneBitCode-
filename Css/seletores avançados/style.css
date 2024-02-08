@@ -1,0 +1,42 @@
+/* Seletor :nth-child() */
+li:nth-child(2){
+    color: hsl(0, 98%, 51%);
+}
+
+/* Voce pode colocar a palvare em igles para par e impar odd e even (e Calculos matematicos)*/
+li:nth-child(2n-1){
+    color: hsl(241, 98%, 51%);
+}
+
+li:hover{
+     background-color: hsl(0, 0%, 0%);
+     color: hsl(59, 100%, 50%);
+    cursor: pointer;
+    }
+
+    input:focus{
+        background-color:hsl(0, 0%, 51%);
+    }
+
+    /* 2 peseudo-elementos ::before e ::after */
+
+li::before{
+    content: "(Antes)";
+}
+
+li::after{
+    content: "(Depois)";
+}
+
+li:first-child{
+    color: hsl(125, 93%, 49%);
+}
+
+li:last-child{
+    color: hsl(51, 95%, 49%);
+}
+
+li:not(:first-child){
+
+    color: hsl(283, 83%, 54%);;
+}

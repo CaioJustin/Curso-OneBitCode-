@@ -1,0 +1,70 @@
+/*Seletor Universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Seletor de tag*/
+header,footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Seletor de elementos aninhado  */
+nav a {
+  color: hsl(330, 85%, 50%);
+}
+
+/* Seletor de Filhos*/
+nav > a{
+    display: block;
+    color: #3115d4;
+    padding: 10px;
+}
+
+/* Seletor de Classes*/
+.laranja{
+    color: hsl(27, 100%, 51%);
+}
+
+.verde{
+    color: hsl(118, 85%, 50%);
+}
+
+/* Seletor de id (a # representa o id) */
+#secao-principal{
+    color: hsl(56, 95%, 50%);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Combinação de seletores*/
+#secao-principal>* {
+    margin-top: 10px;
+}
+input{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+ 
+}
+/* Seletor de sequencia*/
+input + input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+h2 + p{
+    padding: 30px;
+}
+
+/*seletor de popriedade*/
+input[name="email"]{
+    background-color: hsl(165, 100%, 51%);
+}
+
+input[type="password"]{
+    background-color: hsl(335, 75%, 29%);
+}

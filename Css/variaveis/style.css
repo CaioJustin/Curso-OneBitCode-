@@ -1,0 +1,33 @@
+/* 0 .25 e a verdade 0.25 voce pode corta o zero*/
+:root{
+    --cor-principal:hsl(219, 92%, 52%);
+    --cor-claro: hsl(0, 0%, 97%);
+    --cor-escuro:hsl(0, 69%, 48%);
+    --preenchimento-pq: .25rem 1rem;
+    --preenchimento-md: 2rem;
+    --preenchimento-gd: 4rem;
+}   
+
+
+header{
+    background-color: var(--cor-escuro);
+    color: var(--cor-claro);
+    padding: var(--preenchimento-pq);
+    text-align: center;
+}
+
+section{
+background-color: var(--cor-claro);
+padding: var(--preenchimento-md);
+
+}
+
+div{
+    background-color: var(--cor-principal);
+    color: var(--cor-claro);
+    padding: var(--preenchimento-pq);
+}
+
+.red-box{
+    --cor-principal:hsl(100,50%,25%);
+}
